@@ -11,22 +11,18 @@ Listed below is the correct answer key for your quiz.
  ------	|------	|------	|------	|-------	
  6) A 	| 7) A 	| 8) C 	| 9) D 	| 10) A 	
 ```
-Your program should store these correct answers in an array.  (Store each question’s correct answer in an element of a String array.)  The program will iterate through each question and allow the quiz taker to enter a answers for each question, which should be stored in another array. After the student’s answers have been entered, the program should display a message indicating whether the student passed or failed the exam.  (A student must correctly answer 15 of the 20 questions to pass the exam.)  It should then display the total number of correctly answered questions, the total number of incorrectly answered questions, and a list showing the question numbers of the incorrectly answered questions.
+Your program should store these correct answers in an array.  (Store each question’s correct answer in an element of a String array.)  The program will iterate through each question and allow the quiz taker to enter a answer for each question, which should be stored in another array. After the student’s answers have been entered, the program should display a message indicating whether the student passed or failed the exam.  (A student must correctly answer 7 of the 10 questions to pass the quiz.)  It should then display the total number of correctly answered questions, the total number of incorrectly answered questions, and a list showing the question numbers of the incorrectly answered questions.
+
+Please enforce 
 
 ## Requirements
 
-```python
-import foobar
+- Application should be .NET core console app
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+- Version control implemented into application with a minimum of 3 commits
+- ReadMe file is included with project that gives instructions on what the project is and what technologies were used in creating the project.
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Resources
+[.NET Core Guide](https://docs.microsoft.com/en-us/dotnet/core/)
 
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[Makeareadme.com](https://www.makeareadme.com/)
