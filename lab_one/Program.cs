@@ -14,6 +14,7 @@ namespace lab_one
 				"4. When was .Net Core 2.0 Released?",
 				"5. When was .Net Core 3.0 Announced?",
 				"6. Which Language does .Net Core not have support for?",
+				"7. What is the current .Net Core version?",
 			};
 
 			string[,] quizAnswers = new string[10, 4]{
@@ -23,10 +24,10 @@ namespace lab_one
 				{"A) 2017", "B) 2015", "C) 2013", "D) 2018"},
 				{"A) 2017", "B) 2015", "C) 2013", "D) 2018"},
 				{"A) Ruby", "B) C#", "C) F#", "D) VB .NET"},
-				{"A) ", "B) .Net Foundation", "C) Microsoft", "D) "},
-				{"A) ", "B) .Net Foundation", "C) Microsoft", "D) "},
-				{"A) ", "B) .Net Foundation", "C) Microsoft", "D) "},
-				{"A) ", "B) .Net Foundation", "C) Microsoft", "D) "}
+				{"A) 2.2", "B) 2.0", "C) 2.0.2", "D) 2.3.1"},
+				{"A) ", "B) ", "C) Microsoft", "D) "},
+				{"A) ", "B) ", "C) ", "D) yes"},
+				{"A) yes ", "B) ", "C) ", "D) "}
 				};
 
 			string EXIT = "";
@@ -76,7 +77,7 @@ namespace lab_one
 					Console.ForegroundColor = ConsoleColor.Green;
 					Console.WriteLine("Congratulations! You have passed!");
 					Console.ResetColor();
-					Console.WriteLine("You got a score of " + amntCorrect + "/10");
+					Console.WriteLine("You got a score of {0}/10", amntCorrect);
 					Console.WriteLine("Press any key to take the quiz again or enter 'Q' to quit.");
 					EXIT = Console.ReadLine();
 					EXIT = EXIT.ToUpper();
@@ -86,7 +87,7 @@ namespace lab_one
 					Console.ForegroundColor = ConsoleColor.Red;
 					Console.WriteLine("Sorry, you have failed the quiz.");
 					Console.ResetColor();
-					Console.WriteLine("You got a score of " + amntCorrect + "/10");
+					Console.WriteLine("You got a score of {0}/10", amntCorrect);
 					Console.WriteLine("If you would like to take the quiz again enter any key. Or press 'Q' to quit");
 					EXIT = Console.ReadLine();
 					EXIT = EXIT.ToUpper();
