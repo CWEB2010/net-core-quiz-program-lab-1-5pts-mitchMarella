@@ -1,0 +1,11 @@
+C:\Users\marmita\Desktop\Programming\lab1\lab_one\bin\Debug\netcoreapp2.1\lab_one.deps.json
+C:\Users\marmita\Desktop\Programming\lab1\lab_one\bin\Debug\netcoreapp2.1\lab_one.runtimeconfig.json
+C:\Users\marmita\Desktop\Programming\lab1\lab_one\bin\Debug\netcoreapp2.1\lab_one.runtimeconfig.dev.json
+C:\Users\marmita\Desktop\Programming\lab1\lab_one\bin\Debug\netcoreapp2.1\lab_one.dll
+C:\Users\marmita\Desktop\Programming\lab1\lab_one\bin\Debug\netcoreapp2.1\lab_one.pdb
+C:\Users\marmita\Desktop\Programming\lab1\lab_one\obj\Debug\netcoreapp2.1\lab_one.csprojAssemblyReference.cache
+C:\Users\marmita\Desktop\Programming\lab1\lab_one\obj\Debug\netcoreapp2.1\lab_one.csproj.CoreCompileInputs.cache
+C:\Users\marmita\Desktop\Programming\lab1\lab_one\obj\Debug\netcoreapp2.1\lab_one.AssemblyInfoInputs.cache
+C:\Users\marmita\Desktop\Programming\lab1\lab_one\obj\Debug\netcoreapp2.1\lab_one.AssemblyInfo.cs
+C:\Users\marmita\Desktop\Programming\lab1\lab_one\obj\Debug\netcoreapp2.1\lab_one.dll
+C:\Users\marmita\Desktop\Programming\lab1\lab_one\obj\Debug\netcoreapp2.1\lab_one.pdb
